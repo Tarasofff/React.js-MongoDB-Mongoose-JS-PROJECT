@@ -1,0 +1,139 @@
+/*Main style file*/
+
+body {
+    background-color: #f1ecec;
+}
+
+.App {
+    padding: 100px;
+}
+
+.invoices {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.AddAction {
+    border: 1px solid #000;
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.AddAction div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.AddAction p {
+    font-weight: bold;
+}
+
+.ActionButton {
+    width: 100px;
+    height: 40px;
+    background-color: #091aee;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.Action {
+    border: 1px solid #000;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.MainTable {
+    width: 100%;
+    border: none;
+}
+
+.Column1 {
+    background-color: #c1c1c1;
+    border: none;
+    opacity: 0.5;
+
+}
+
+.Column1 th {
+    padding: 10px;
+    width: 25%;
+}
+
+.Column2 * {
+    text-align: center;
+
+}
+
+.Column2 td {
+    padding: 10px;
+
+}
+
+.Column2 td input {
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Book Antiqua";
+}
+
+.DataButtons {
+    width: 30px;
+    height: 30px;
+    background-color: #3bee09;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#UpdateValidation {
+    visibility: hidden;
+    font-family: "Agency FB";
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: #ff2aa4;
+    padding: 6px 5px;
+    transition: 1s;
+}
+
+/* Tooltip text */
+/*#tooltiptext {*/
+/*    visibility: hidden;*/
+/*    width: 80px;*/
+/*    background-color: black;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    padding: 5px 0;*/
+/*    border-radius: 6px;*/
+/*}*/
+
+/*.tooltip:hover #tooltiptext {*/
+/*    visibility: visible;*/
+/*}*/
+
